@@ -1,6 +1,5 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import { Text } from 'react-native';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -9,11 +8,12 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Provider as ReduxProvider } from 'react-redux';
 import store from './store'
 
-import InfoScreen from './screens/Info'
-import LoginScreen from './screens/Login'
-import UserScreen from './screens/User'
-import WelcomeScreen from './screens/Welcome'
-
+import {
+  InfoScreen,
+  LoginScreen,
+  UserScreen,
+  WelcomeScreen,
+} from './screens';
 import {
   HeaderBackButton,
 } from './components'
