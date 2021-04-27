@@ -9,11 +9,11 @@ export type UserProfileState = {
 }
 
 const initialState: UserProfileState = {
-	login: "1",
-	role: "2",
-	direction: "3",
-	specialization: "4",
-	projectName: "5",
+	login: "",
+	role: "",
+	direction: "",
+	specialization: "",
+	projectName: "",
 }
 
 const userProfile = createSlice({
